@@ -6,14 +6,22 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "get",
-        "post"
+        "get"
       ]
     },
     {
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "product",
+      "databaseName": "woficecream",
+      "collection": "products",
+      "connectionStringSetting": "CosmosDBConnectionString",
+      "direction": "in",
+      "Id": "{Query.id}"
     }
   ]
 }
