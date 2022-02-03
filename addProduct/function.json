@@ -20,7 +20,7 @@
       "databaseName": "woficecream",
       "collectionName": "products",
       "createIfNotExists": true,
-      "connectionStringSetting": "CosmosDbConnectionString",
+      "connectionStringSetting": "CosmosDBConnectionString",
       "direction": "out"
   }
   ]
