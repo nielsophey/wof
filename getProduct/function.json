@@ -18,7 +18,7 @@
       "type": "cosmosDB",
       "name": "product",
       "databaseName": "woficecream",
-      "collection": "products",
+      "collectionName": "products",
       "connectionStringSetting": "CosmosDBConnectionString",
       "direction": "in",
       "Id": "{Query.id}"
